@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pavan Kalyan Aningi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1f1c2c, #928dab);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: rgba(0, 0, 0, 0.6);
+      animation: slideIn 1.5s ease;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+      color: #e0e0e0;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .about, .skills, .contact {
+      margin-bottom: 60px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      font-size: 32px;
+      color: #ffd700;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .button {
+      padding: 12px 24px;
+      background-color: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #e91e63;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.5);
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pavan Kalyan Aningi</h1>
+    <p>AWS | DevOps | Cloud Enthusiast | Engineer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Pavan, a passionate AWS DevOps Engineer who loves automating infrastructure, optimizing deployments, and building scalable cloud-native systems.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>AWS Services (EC2, S3, Lambda, RDS, IAM)</li>
+      <li>DevOps Tools: Docker, Kubernetes, Jenkins, GitHub Actions</li>
+      <li>IaC: Terraform, CloudFormation</li>
+      <li>CI/CD, Linux, Shell Scripting, Python</li>
+      <li>Monitoring: Prometheus, Grafana</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:pavan.aningi1998@gmail.com" style="color: #ffcc00;">pavan.aningi1998@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/pavan-kalyan-aningi" style="color: #ffcc00;" target="_blank">linkedin.com/in/pavan-kalyan-aningi</a></p>
+    <button class="button" onclick="showMessage()">Say Hello</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Pavan Kalyan Aningi. All rights reserved.
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Hey there! Thanks for visiting my personal site 😊");
+    }
+  </script>
+
+</body>
+</html>
