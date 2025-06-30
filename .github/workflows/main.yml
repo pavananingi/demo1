@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     name: Build & Deploy on EC2 via pavan-runner
-    runs-on: [self-hosted, pavan-runner]
+    runs-on: pavan-runner
 
     steps:
       - name: Checkout Code
